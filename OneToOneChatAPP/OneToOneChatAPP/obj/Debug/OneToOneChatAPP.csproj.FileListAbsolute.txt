@@ -1,0 +1,9 @@
+C:\Users\rajes\OneDrive\Desktop\MOFSL GITBash\OneToOneChatAPP\OneToOneChatAPP\bin\Debug\OneToOneChatAPP.exe.config
+C:\Users\rajes\OneDrive\Desktop\MOFSL GITBash\OneToOneChatAPP\OneToOneChatAPP\bin\Debug\OneToOneChatAPP.exe
+C:\Users\rajes\OneDrive\Desktop\MOFSL GITBash\OneToOneChatAPP\OneToOneChatAPP\bin\Debug\OneToOneChatAPP.pdb
+C:\Users\rajes\OneDrive\Desktop\MOFSL GITBash\OneToOneChatAPP\OneToOneChatAPP\obj\Debug\OneToOneChatAPP.ChatApp.resources
+C:\Users\rajes\OneDrive\Desktop\MOFSL GITBash\OneToOneChatAPP\OneToOneChatAPP\obj\Debug\OneToOneChatAPP.Properties.Resources.resources
+C:\Users\rajes\OneDrive\Desktop\MOFSL GITBash\OneToOneChatAPP\OneToOneChatAPP\obj\Debug\OneToOneChatAPP.csproj.GenerateResource.cache
+C:\Users\rajes\OneDrive\Desktop\MOFSL GITBash\OneToOneChatAPP\OneToOneChatAPP\obj\Debug\OneToOneChatAPP.csproj.CoreCompileInputs.cache
+C:\Users\rajes\OneDrive\Desktop\MOFSL GITBash\OneToOneChatAPP\OneToOneChatAPP\obj\Debug\OneToOneChatAPP.exe
+C:\Users\rajes\OneDrive\Desktop\MOFSL GITBash\OneToOneChatAPP\OneToOneChatAPP\obj\Debug\OneToOneChatAPP.pdb
