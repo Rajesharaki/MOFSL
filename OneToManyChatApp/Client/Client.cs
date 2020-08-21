@@ -24,10 +24,8 @@ namespace Client
 
         private void Client_Load(object sender, EventArgs e)
         {
-
         }
-
-        private void btnConnect_Click(object sender, EventArgs e)
+        private void btnConnect_Click_1(object sender, EventArgs e)
         {
             try
             {
@@ -42,7 +40,6 @@ namespace Client
             {
                 MessageBox.Show(ex.Message.ToString());
             }
-
         }
         private void ReceiveCallBack(IAsyncResult aResult)
         {
@@ -62,8 +59,7 @@ namespace Client
                 MessageBox.Show(ex.Message.ToString()); ;
             }
         }
-
-        private void btnSend_Click(object sender, EventArgs e)
+        private void btnSend_Click_1(object sender, EventArgs e)
         {
             try
             {
@@ -78,5 +74,5 @@ namespace Client
                 MessageBox.Show(ex.Message.ToString()); ;
             }
         }
-    }
+7--*    }
 }
