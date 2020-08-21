@@ -45,6 +45,8 @@ namespace CSVFileReader
                     string[] rows = records[rowNo].Split(',');
                     DataRow dataRow = dataTable.NewRow();
                     int columnIndex = 0;
+
+                    //Bind Data to a Specific Column
                     foreach (var headerWord in firstLine)
                     {
                         dataRow[headerWord] = rows[columnIndex++];
