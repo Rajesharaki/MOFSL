@@ -1,0 +1,10 @@
+C:\Users\rajes\OneDrive\Desktop\MOFSL GITBash\CSVFileReader\CSVFileReader\bin\Debug\CSVFileReader.exe.config
+C:\Users\rajes\OneDrive\Desktop\MOFSL GITBash\CSVFileReader\CSVFileReader\bin\Debug\CSVFileReader.exe
+C:\Users\rajes\OneDrive\Desktop\MOFSL GITBash\CSVFileReader\CSVFileReader\bin\Debug\CSVFileReader.pdb
+C:\Users\rajes\OneDrive\Desktop\MOFSL GITBash\CSVFileReader\CSVFileReader\obj\Debug\CSVFileReader.csprojAssemblyReference.cache
+C:\Users\rajes\OneDrive\Desktop\MOFSL GITBash\CSVFileReader\CSVFileReader\obj\Debug\CSVFileReader.FileReader.resources
+C:\Users\rajes\OneDrive\Desktop\MOFSL GITBash\CSVFileReader\CSVFileReader\obj\Debug\CSVFileReader.Properties.Resources.resources
+C:\Users\rajes\OneDrive\Desktop\MOFSL GITBash\CSVFileReader\CSVFileReader\obj\Debug\CSVFileReader.csproj.GenerateResource.cache
+C:\Users\rajes\OneDrive\Desktop\MOFSL GITBash\CSVFileReader\CSVFileReader\obj\Debug\CSVFileReader.csproj.CoreCompileInputs.cache
+C:\Users\rajes\OneDrive\Desktop\MOFSL GITBash\CSVFileReader\CSVFileReader\obj\Debug\CSVFileReader.exe
+C:\Users\rajes\OneDrive\Desktop\MOFSL GITBash\CSVFileReader\CSVFileReader\obj\Debug\CSVFileReader.pdb

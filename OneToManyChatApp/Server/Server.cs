@@ -205,5 +205,20 @@ namespace Server
                 MessageBox.Show(ex.Message.ToString()); ;
             }
         }
+
+        private void Clients_List_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textMsg_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textStatus_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

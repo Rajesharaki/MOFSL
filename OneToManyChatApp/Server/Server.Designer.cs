@@ -71,6 +71,7 @@
             this.textMsg.Name = "textMsg";
             this.textMsg.Size = new System.Drawing.Size(563, 22);
             this.textMsg.TabIndex = 9;
+            this.textMsg.TextChanged += new System.EventHandler(this.textMsg_TextChanged);
             // 
             // textStatus
             // 
@@ -80,6 +81,7 @@
             this.textStatus.Name = "textStatus";
             this.textStatus.Size = new System.Drawing.Size(301, 292);
             this.textStatus.TabIndex = 8;
+            this.textStatus.SelectedIndexChanged += new System.EventHandler(this.textStatus_SelectedIndexChanged);
             // 
             // Clients_List
             // 
@@ -88,6 +90,7 @@
             this.Clients_List.Name = "Clients_List";
             this.Clients_List.Size = new System.Drawing.Size(238, 293);
             this.Clients_List.TabIndex = 7;
+            this.Clients_List.SelectedIndexChanged += new System.EventHandler(this.Clients_List_SelectedIndexChanged);
             // 
             // serverMsg
             // 
