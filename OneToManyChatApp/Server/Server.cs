@@ -23,7 +23,6 @@ namespace Server
                 _socket = socket;
             }
         }
-
         byte[] buffer = new byte[1024];
 
         //Create server socket End Point

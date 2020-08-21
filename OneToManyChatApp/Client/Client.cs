@@ -74,5 +74,5 @@ namespace Client
                 MessageBox.Show(ex.Message.ToString()); ;
             }
         }
-7--*    }
+   }
 }
