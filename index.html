@@ -1,0 +1,827 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="assets/images/favicon.ico">
+    <title>Motilal</title>
+
+    <script src="assets/js/jquery.min.js" type="text/javascript"></script>
+    <script src="assets/js/bootstrap.min.js" type="text/javascript"></script>
+    <script src="assets/js/swiper.min.js" type="text/javascript"></script>
+    <script src="assets/js/moment-with-locales.min.js" type="text/javascript"></script>
+    <script src="assets/js/datetimepicker.js" type="text/javascript"></script>
+    <!-- css -->
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/css/swiper.min.css" rel="stylesheet">
+    <link href="assets/css/datetimepicker.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="assets/css/styles.css" rel="stylesheet">
+    <!-- css -->
+</head>
+
+<body>
+
+    <div class="header fullwidth commonpadding">
+        <h1 class="logo">
+            <a href="#"><img src="assets/images/logo.jpg" /></a>
+        </h1>
+        <div class="header-right">
+            <h4>John Marshall Doe (123456789)<span>|</span>DP ID: 1234567</h4>
+            <p><i class="Poppins-Light" style="font-style: normal;">Active Segment:</i> EQ, MF, CURR,COMM<span>|</span><i class="Poppins-Light" style="font-style: normal;">Last Traded:</i> 24 May, 2020</p>
+        </div>    
+    </div>
+
+    <div class="fullwidth commonpadding client-detailsbox mt20">
+        <div class="clientbox-l">
+            <div class="swiper-container swiper1">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="boxclient-comm cashdiv">
+                            <p>Cash <img src="assets/images/img1.png" /></p>
+                            <h5><span class="rupeetext">&#8377;</span>50,000</h5>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="boxclient-comm dpdiv">
+                            <p>DP <img src="assets/images/img2.png" /></p>
+                            <h5><span class="rupeetext">&#8377;</span>25,00,000</h5>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="boxclient-comm openposidiv">
+                            <p>Open Positions <img src="assets/images/img3.png" /></p>
+                            <h5><span class="rupeetext">&#8377;</span>10,00,000</h5>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="boxclient-comm dpdiv">
+                            <p>DP <img src="assets/images/img2.png" /></p>
+                            <h5><span class="rupeetext">&#8377;</span>25,00,000</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Add Arrows -->
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+        </div>
+        <div class="clientbox-r">
+            <ul>
+                <li data-toggle="modal" data-target="#recommendaModal">
+                    <div class="clibox-r lastreco">
+                        <img src="assets/images/img4.png" />
+                    </div>
+                    <p>Last Reco</p>
+                </li>
+                <li data-toggle="modal" data-target="#ordertradeModal">
+                    <div class="clibox-r ordertrade">
+                        <img src="assets/images/img5.png" />
+                    </div>
+                    <p>Order / Trade</p>
+                </li>
+                <li data-toggle="modal" data-target="#callsModal">
+                    <div class="clibox-r callbox">
+                        <img src="assets/images/img6.png" />
+                    </div>
+                    <p>Calls</p>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="fullwidth commonpadding mt20">
+        <div class="fullwidth client-calldetails">
+            <div class="calldetails-l">
+                <ul>
+                    <li class="common-list">
+                        <span class="hilight-num"></span>
+                        <p>Mobile Number</p>
+                        <h6>9861098610</h6>
+                    </li>
+                    <li class="common-list">
+                        <p>Alt Mobile Number</p>
+                        <h6>7505684797</h6>
+                    </li>
+                    <li class="common-list">
+                        <p>Office Number</p>
+                        <h6>022-245567</h6>
+                    </li>
+                    <li class="common-list">
+                        <p>Home Number</p>
+                        <h6>022-235678</h6>
+                    </li>
+                </ul>    
+            </div>
+            <div class="calldetails-r">
+                <button style="position: relative;">
+                    CALL BACK LATER
+                    <div id="picker"></div>
+                </button>
+                <button class="ml20">SKIP</button>
+            </div>
+        </div>    
+    </div>
+
+    <div class="fullwidth commonpadding mt20">
+        <div class="fullwidth tablebox-common">
+            <div class="fullwidth productbar-cli">
+                <div class="fullwidth producttop">
+                    <button class="buy">BUY</button>
+                    <p>Aurobindo Pharma</p>
+                    <a href="#"><img src="assets/images/pdf-icon.png" /></a>
+                </div>
+                <div class="fullwidth">
+                    <div class="productleft-bar">
+                        <ul>
+                            <li class="common-list2">
+                                <p>CMP</p>
+                                <h6><span class="rupeetext">&#8377;</span>863.40</h6>
+                            </li>
+                            <li class="common-list2">
+                                <p>Target Price</p>
+                                <h6><span class="rupeetext">&#8377;</span>350.00</h6>
+                            </li>
+                            <li class="common-list2">
+                                <p>Stop Loss</p>
+                                <h6><span class="rupeetext">&#8377;</span>260.00</h6>
+                            </li>
+                            <li class="common-list2">
+                                <p>Duration</p>
+                                <h6>1-2 Quarters</h6>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="productright-bar">
+                        <p>
+                            <input type="radio" id="yes" name="radio-group" checked>
+                            <label for="yes">YES</label>
+                        </p>
+                        <p class="ml20">
+                            <input type="radio" id="no" name="radio-group">
+                            <label for="no">NO</label>
+                        </p> 
+                        <p class="ml20">
+                            <input type="radio" id="hold" name="radio-group">
+                            <label for="hold">HOLD</label>
+                        </p>   
+                    </div>    
+                </div>
+                <div class="fullwidth producttext-last">
+                    <p>Reason: Received by research or already low</p>
+                </div>
+            </div>
+            <div class="fullwidth productbar-cli">
+                <div class="fullwidth producttop">
+                    <button class="sell">SELL</button>
+                    <p>TATA Steel</p>
+                    <a href="#"><img src="assets/images/notification-icon.png" /></a>
+                </div>
+                <div class="fullwidth">
+                    <div class="productleft-bar">
+                        <ul>
+                            <li class="common-list2">
+                                <p>CMP</p>
+                                <h6><span class="rupeetext">&#8377;</span>404.00</h6>
+                            </li>
+                            <li class="common-list2">
+                                <p>Buy Price</p>
+                                <h6><span class="rupeetext">&#8377;</span>350.00</h6>
+                            </li>
+                            <li class="common-list2">
+                                <p>Holding Value</p>
+                                <h6><span class="rupeetext">&#8377;</span>20,200.00</h6>
+                            </li>
+                            <li class="common-list2">
+                                <p>Profit (%)</p>
+                                <h6 class="greencolor"><span class="rupeetext">&#8377;</span>5,400<small>(7%)</small></h6>
+                            </li>
+                            <li class="common-list2">
+                                <p>Profit Per Share</p>
+                                <h6 class="greencolor"><span class="rupeetext">&#8377;</span>54.00</h6>
+                            </li>
+                            <li class="common-list2">
+                                <p>Days Since Purchased</p>
+                                <h6>45 Days</h6>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="productright-bar">
+                        <p>
+                            <input type="radio" id="yes1" name="radio-group1" checked>
+                            <label for="yes1">YES</label>
+                        </p>
+                        <p class="ml20">
+                            <input type="radio" id="no1" name="radio-group1">
+                            <label for="no1">NO</label>
+                        </p> 
+                        <p class="ml20">
+                            <input type="radio" id="hold1" name="radio-group1">
+                            <label for="hold1">HOLD</label>
+                        </p>   
+                    </div>    
+                </div>
+                <div class="fullwidth producttext-last">
+                    <p>Reason: Lorem ipsum is dummy text since ever text</p>
+                </div>
+            </div>
+            <div class="fullwidth productbar-cli" style="background: none;">
+                <div class="fullwidth producttop">
+                    <button class="sell">SELL</button>
+                    <p>BPCL</p>
+                    <a href="#"><img src="assets/images/notification-icon.png" /></a>
+                </div>
+                <div class="fullwidth">
+                    <div class="productleft-bar">
+                        <ul>
+                            <li class="common-list2">
+                                <p>CMP</p>
+                                <h6><span class="rupeetext">&#8377;</span>419.00</h6>
+                            </li>
+                            <li class="common-list2">
+                                <p>Buy Price</p>
+                                <h6><span class="rupeetext">&#8377;</span>550.00</h6>
+                            </li>
+                            <li class="common-list2">
+                                <p>Holding Value</p>
+                                <h6><span class="rupeetext">&#8377;</span>27,500.00</h6>
+                            </li>
+                            <li class="common-list2">
+                                <p>Loss (%)</p>
+                                <h6 class="redcolor"><span class="rupeetext">&#8377;</span>6,550<small>(6%)</small></h6>
+                            </li>
+                            <li class="common-list2">
+                                <p>Loss Per Share</p>
+                                <h6 class="redcolor"><span class="rupeetext">&#8377;</span>131.00</h6>
+                            </li>
+                            <li class="common-list2">
+                                <p>Days Since Purchased</p>
+                                <h6>45 Days</h6>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="productright-bar">
+                        <p>
+                            <input type="radio" id="yes2" name="radio-group2" checked>
+                            <label for="yes2">YES</label>
+                        </p>
+                        <p class="ml20">
+                            <input type="radio" id="no2" name="radio-group2">
+                            <label for="no2">NO</label>
+                        </p> 
+                        <p class="ml20">
+                            <input type="radio" id="hold2" name="radio-group2">
+                            <label for="hold2">HOLD</label>
+                        </p>   
+                    </div>    
+                </div>
+                <div class="fullwidth producttext-last">
+                    <p>Reason: If you sell this stock today, you can get better returns if you invest in other scrip</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="fullwidth commonbtn-div">
+        <button class="common-btn">SUBMIT</button>
+    </div>
+
+
+    <!-- Order Trade Modal -->
+    <div class="modal fade" id="ordertradeModal" tabindex="-1" role="dialog" aria-labelledby="ordertradeModal" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Order Book / Trade Book Details</h5>
+            <img src="assets/images/close-icon.png" class="close" data-dismiss="modal" aria-label="Close" />
+          </div>
+          <div class="modal-body">
+            <ul class="nav nav-tabs" id="myTab" role="tablist">
+                <li class="nav-item">
+                    <a class="nav-link active" data-toggle="tab" href="#orderbook" role="tab" aria-controls="orderbook" aria-selected="true">Order Book</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" data-toggle="tab" href="#tradebook" role="tab" aria-controls="tradebook" aria-selected="false">Trade Book</a>
+                </li>
+            </ul>
+            <div class="tab-content" id="myTabContent">
+                <div class="tab-pane fade show active" id="orderbook" role="tabpanel" aria-labelledby="orderbook-tab">
+                    <table class="table">
+                        <tr>
+                            <th>Client ID</th>
+                            <th>Exchange</th>
+                            <th>Scrip Name</th>
+                            <th>Order State</th>
+                            <th>Product Code</th>
+                            <th>Buy/Sell</th>
+                            <th>Order Qty</th>
+                            <th>Remaining Qty</th>
+                            <th>Price</th>
+                            <th>Trigger Price</th>
+                            <th>Discount Qty</th>
+                            <th>Order Date & Time</th>
+                            <th>Order ID</th>
+                        </tr>
+                        <tr>
+                            <td>123456789</td>
+                            <td>NSE</td>
+                            <td>ITC</td>
+                            <td class="orengcolor">Pending</td>
+                            <td>XYZ</td>
+                            <td class="greencolor">Buy</td>
+                            <td>100</td>
+                            <td>0</td>
+                            <td>2209</td>
+                            <td>100</td>
+                            <td>0</td>
+                            <td>15-01-2020&nbsp;&nbsp;|&nbsp;&nbsp;10:30</td>
+                            <td>SS0580</td>
+                        </tr>
+                        <tr>
+                            <td>123456789</td>
+                            <td>NSE</td>
+                            <td>AXISBANK</td>
+                            <td class="redcolor">Rejected</td>
+                            <td>XYZ</td>
+                            <td class="redcolor">Sell</td>
+                            <td>100</td>
+                            <td>0</td>
+                            <td>2209</td>
+                            <td>100</td>
+                            <td>0</td>
+                            <td>15-01-2020&nbsp;&nbsp;|&nbsp;&nbsp;10:30</td>
+                            <td>SS0580</td>
+                        </tr>
+                        <tr>
+                            <td>123456789</td>
+                            <td>NSE</td>
+                            <td>AXISBANK</td>
+                            <td class="greycolor">Cancelled</td>
+                            <td>XYZ</td>
+                            <td class="redcolor">Sell</td>
+                            <td>100</td>
+                            <td>0</td>
+                            <td>2209</td>
+                            <td>100</td>
+                            <td>0</td>
+                            <td>15-01-2020&nbsp;&nbsp;|&nbsp;&nbsp;10:30</td>
+                            <td>SS0580</td>
+                        </tr>
+                        <tr>
+                            <td>123456789</td>
+                            <td>NSE</td>
+                            <td>AXISBANK</td>
+                            <td class="greencolor">Approved</td>
+                            <td>XYZ</td>
+                            <td class="redcolor">Sell</td>
+                            <td>100</td>
+                            <td>0</td>
+                            <td>2209</td>
+                            <td>100</td>
+                            <td>0</td>
+                            <td>15-01-2020&nbsp;&nbsp;|&nbsp;&nbsp;10:30</td>
+                            <td>SS0580</td>
+                        </tr>
+                        <tr>
+                            <td>123456789</td>
+                            <td>NSE</td>
+                            <td>AXISBANK</td>
+                            <td class="greencolor">Approved</td>
+                            <td>XYZ</td>
+                            <td class="redcolor">Sell</td>
+                            <td>100</td>
+                            <td>0</td>
+                            <td>2209</td>
+                            <td>100</td>
+                            <td>0</td>
+                            <td>15-01-2020&nbsp;&nbsp;|&nbsp;&nbsp;10:30</td>
+                            <td>SS0580</td>
+                        </tr>
+                        <tr>
+                            <td>123456789</td>
+                            <td>NSE</td>
+                            <td>AXISBANK</td>
+                            <td class="greencolor">Approved</td>
+                            <td>XYZ</td>
+                            <td class="redcolor">Sell</td>
+                            <td>100</td>
+                            <td>0</td>
+                            <td>2209</td>
+                            <td>100</td>
+                            <td>0</td>
+                            <td>15-01-2020&nbsp;&nbsp;|&nbsp;&nbsp;10:30</td>
+                            <td>SS0580</td>
+                        </tr>
+                        <tr>
+                            <td>123456789</td>
+                            <td>NSE</td>
+                            <td>AXISBANK</td>
+                            <td class="greencolor">Approved</td>
+                            <td>XYZ</td>
+                            <td class="redcolor">Sell</td>
+                            <td>100</td>
+                            <td>0</td>
+                            <td>2209</td>
+                            <td>100</td>
+                            <td>0</td>
+                            <td>15-01-2020&nbsp;&nbsp;|&nbsp;&nbsp;10:30</td>
+                            <td>SS0580</td>
+                        </tr>
+                        <tr>
+                            <td>123456789</td>
+                            <td>NSE</td>
+                            <td>AXISBANK</td>
+                            <td class="greencolor">Approved</td>
+                            <td>XYZ</td>
+                            <td class="redcolor">Sell</td>
+                            <td>100</td>
+                            <td>0</td>
+                            <td>2209</td>
+                            <td>100</td>
+                            <td>0</td>
+                            <td>15-01-2020&nbsp;&nbsp;|&nbsp;&nbsp;10:30</td>
+                            <td>SS0580</td>
+                        </tr>
+                    </table>
+                </div>
+                <div class="tab-pane fade" id="tradebook" role="tabpanel" aria-labelledby="tradebook-tab">
+                    <table class="table">
+                        <tr>
+                            <th>Client ID</th>
+                            <th>Exchange</th>
+                            <th>Scrip Name</th>
+                            <th>Order State</th>
+                            <th>Product Code</th>
+                            <th>Buy/Sell</th>
+                            <th>Order Qty</th>
+                            <th>Remaining Qty</th>
+                            <th>Price</th>
+                            <th>Trigger Price</th>
+                            <th>Discount Qty</th>
+                            <th>Order Date & Time</th>
+                            <th>Order ID</th>
+                        </tr>
+                        <tr>
+                            <td>123456789</td>
+                            <td>NSE</td>
+                            <td>ITC</td>
+                            <td class="orengcolor">Pending</td>
+                            <td>XYZ</td>
+                            <td class="greencolor">Buy</td>
+                            <td>100</td>
+                            <td>0</td>
+                            <td>2209</td>
+                            <td>100</td>
+                            <td>0</td>
+                            <td>15-01-2020&nbsp;&nbsp;|&nbsp;&nbsp;10:30</td>
+                            <td>SS0580</td>
+                        </tr>
+                        <tr>
+                            <td>123456789</td>
+                            <td>NSE</td>
+                            <td>AXISBANK</td>
+                            <td class="redcolor">Rejected</td>
+                            <td>XYZ</td>
+                            <td class="redcolor">Sell</td>
+                            <td>100</td>
+                            <td>0</td>
+                            <td>2209</td>
+                            <td>100</td>
+                            <td>0</td>
+                            <td>15-01-2020&nbsp;&nbsp;|&nbsp;&nbsp;10:30</td>
+                            <td>SS0580</td>
+                        </tr>
+                        <tr>
+                            <td>123456789</td>
+                            <td>NSE</td>
+                            <td>AXISBANK</td>
+                            <td class="greycolor">Cancelled</td>
+                            <td>XYZ</td>
+                            <td class="redcolor">Sell</td>
+                            <td>100</td>
+                            <td>0</td>
+                            <td>2209</td>
+                            <td>100</td>
+                            <td>0</td>
+                            <td>15-01-2020&nbsp;&nbsp;|&nbsp;&nbsp;10:30</td>
+                            <td>SS0580</td>
+                        </tr>
+                        <tr>
+                            <td>123456789</td>
+                            <td>NSE</td>
+                            <td>AXISBANK</td>
+                            <td class="greencolor">Approved</td>
+                            <td>XYZ</td>
+                            <td class="redcolor">Sell</td>
+                            <td>100</td>
+                            <td>0</td>
+                            <td>2209</td>
+                            <td>100</td>
+                            <td>0</td>
+                            <td>15-01-2020&nbsp;&nbsp;|&nbsp;&nbsp;10:30</td>
+                            <td>SS0580</td>
+                        </tr>
+                        <tr>
+                            <td>123456789</td>
+                            <td>NSE</td>
+                            <td>AXISBANK</td>
+                            <td class="greencolor">Approved</td>
+                            <td>XYZ</td>
+                            <td class="redcolor">Sell</td>
+                            <td>100</td>
+                            <td>0</td>
+                            <td>2209</td>
+                            <td>100</td>
+                            <td>0</td>
+                            <td>15-01-2020&nbsp;&nbsp;|&nbsp;&nbsp;10:30</td>
+                            <td>SS0580</td>
+                        </tr>
+                        <tr>
+                            <td>123456789</td>
+                            <td>NSE</td>
+                            <td>AXISBANK</td>
+                            <td class="greencolor">Approved</td>
+                            <td>XYZ</td>
+                            <td class="redcolor">Sell</td>
+                            <td>100</td>
+                            <td>0</td>
+                            <td>2209</td>
+                            <td>100</td>
+                            <td>0</td>
+                            <td>15-01-2020&nbsp;&nbsp;|&nbsp;&nbsp;10:30</td>
+                            <td>SS0580</td>
+                        </tr>
+                        <tr>
+                            <td>123456789</td>
+                            <td>NSE</td>
+                            <td>AXISBANK</td>
+                            <td class="greencolor">Approved</td>
+                            <td>XYZ</td>
+                            <td class="redcolor">Sell</td>
+                            <td>100</td>
+                            <td>0</td>
+                            <td>2209</td>
+                            <td>100</td>
+                            <td>0</td>
+                            <td>15-01-2020&nbsp;&nbsp;|&nbsp;&nbsp;10:30</td>
+                            <td>SS0580</td>
+                        </tr>
+                        <tr>
+                            <td>123456789</td>
+                            <td>NSE</td>
+                            <td>AXISBANK</td>
+                            <td class="greencolor">Approved</td>
+                            <td>XYZ</td>
+                            <td class="redcolor">Sell</td>
+                            <td>100</td>
+                            <td>0</td>
+                            <td>2209</td>
+                            <td>100</td>
+                            <td>0</td>
+                            <td>15-01-2020&nbsp;&nbsp;|&nbsp;&nbsp;10:30</td>
+                            <td>SS0580</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Calls Modal -->
+    <div class="modal fade" id="callsModal" tabindex="-1" role="dialog" aria-labelledby="callsModal" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Calls</h5>
+            <img src="assets/images/close-icon.png" class="close" data-dismiss="modal" aria-label="Close" />
+          </div>
+          <div class="modal-body" style="padding-top: 0;">
+            <table class="table">
+                <tr>
+                    <th>Trade Symbol</th>
+                    <th>Exchange</th>
+                    <th>LTP</th>
+                    <th>Reco Price</th>
+                    <th>Target Price</th>
+                    <th>Stop Loss</th>
+                    <th>Status</th>
+                    <th>Call Type</th>
+                    <th>Action</th>
+                </tr>
+                <tr>
+                    <td colspan="9">
+                        <div class="datetable">10 Aug 2020</div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>1CYIENT</td>
+                    <td>NSE</td>
+                    <td>352.80 <span class="greencolor upperval">12.90 (3.80%)</span></td>
+                    <td>351.20</td>
+                    <td>370.00</td>
+                    <td>338.00</td>
+                    <td class="greencolor">Open</td>
+                    <td>Short Term Positional</td>
+                    <td><button class="buy">BUY</button></td>
+                </tr>
+                <tr>
+                    <td>1CYIENT</td>
+                    <td>NSE</td>
+                    <td>352.80 <span class="greencolor upperval">12.90 (3.80%)</span></td>
+                    <td>351.20</td>
+                    <td>370.00</td>
+                    <td>338.00</td>
+                    <td class="greencolor">Open</td>
+                    <td>Short Term Positional</td>
+                    <td><button class="buy">BUY</button></td>
+                </tr>
+                <tr>
+                    <td>1CYIENT</td>
+                    <td>NSE</td>
+                    <td>352.80 <span class="redcolor lowerval">12.90 (3.80%)</span></td>
+                    <td>351.20</td>
+                    <td>370.00</td>
+                    <td>338.00</td>
+                    <td class="redcolor">Closed</td>
+                    <td>Short Term Positional</td>
+                    <td><button class="buy">BUY</button></td>
+                </tr>
+                <tr>
+                    <td>1CYIENT</td>
+                    <td>NSE</td>
+                    <td>352.80 <span class="greencolor upperval">12.90 (3.80%)</span></td>
+                    <td>351.20</td>
+                    <td>370.00</td>
+                    <td>338.00</td>
+                    <td class="greencolor">Open</td>
+                    <td>Short Term Positional</td>
+                    <td><button class="sell">BUY</button></td>
+                </tr>
+                <tr>
+                    <td colspan="9">
+                        <div class="datetable">11 Aug 2020</div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>1CYIENT</td>
+                    <td>NSE</td>
+                    <td>352.80 <span class="greencolor upperval">12.90 (3.80%)</span></td>
+                    <td>351.20</td>
+                    <td>370.00</td>
+                    <td>338.00</td>
+                    <td class="greencolor">Open</td>
+                    <td>Short Term Positional</td>
+                    <td><button class="buy">BUY</button></td>
+                </tr>
+                <tr>
+                    <td>1CYIENT</td>
+                    <td>NSE</td>
+                    <td>352.80 <span class="redcolor lowerval">12.90 (3.80%)</span></td>
+                    <td>351.20</td>
+                    <td>370.00</td>
+                    <td>338.00</td>
+                    <td class="redcolor">Closed</td>
+                    <td>Short Term Positional</td>
+                    <td><button class="buy">BUY</button></td>
+                </tr>
+                <tr>
+                    <td>1CYIENT</td>
+                    <td>NSE</td>
+                    <td>352.80 <span class="greencolor upperval">12.90 (3.80%)</span></td>
+                    <td>351.20</td>
+                    <td>370.00</td>
+                    <td>338.00</td>
+                    <td class="greencolor">Open</td>
+                    <td>Short Term Positional</td>
+                    <td><button class="sell">BUY</button></td>
+                </tr>
+            </table>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Calls Modal -->
+    <div class="modal fade" id="recommendaModal" tabindex="-1" role="dialog" aria-labelledby="recommendaModal" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Last Recommendation</h5>
+            <img src="assets/images/close-icon.png" class="close" data-dismiss="modal" aria-label="Close" />
+          </div>
+          <div class="modal-body">
+            <div class="dateblock">
+                <div class="datetable">10 Aug 2020</div>    
+            </div>
+            <div class="fullwidth productbar-cli">
+                <div class="fullwidth producttop">
+                    <button class="sell">SELL</button>
+                    <p>TATA Steel</p>
+                    <h6 class="orengcolor float-right font14 Poppins-Light">Recommendation Not Executed</h6>
+                </div>
+                <div class="fullwidth">
+                    <div class="productleft-bar">
+                        <ul>
+                            <li class="common-list2">
+                                <p>CMP</p>
+                                <h6><span class="rupeetext">₹</span>863.40</h6>
+                            </li>
+                            <li class="common-list2">
+                                <p>Buy Price</p>
+                                <h6><span class="rupeetext">₹</span>350.00</h6>
+                            </li>
+                            <li class="common-list2">
+                                <p>Sell Price</p>
+                                <h6><span class="rupeetext">₹</span>350.00</h6>
+                            </li>
+                            <li class="common-list2">
+                                <p>Profit (%)</p>
+                                <h6 class="greencolor"><span class="rupeetext">₹</span>5,400<small>(7%)</small></h6>
+                            </li>
+                            <li class="common-list2">
+                                <p>Profit Per Share</p>
+                                <h6 class="greencolor"><span class="rupeetext">₹</span>54.00</h6>
+                            </li>
+                            <li class="common-list2">
+                                <p>Realised G/L</p>
+                                <h6>-</h6>
+                            </li>
+                            <li class="common-list2">
+                                <p>Unrealised G/L</p>
+                                <h6 class="redcolor"><span class="rupeetext">₹</span>554.00</h6>
+                            </li>
+                        </ul>
+                    </div>    
+                </div>
+            </div> 
+            <div class="fullwidth productbar-cli" style="background: none;">
+                <div class="fullwidth producttop">
+                    <button class="sell">SELL</button>
+                    <p>TATA Steel</p>
+                    <h6 class="orengcolor float-right font14 Poppins-Light">Recommendation Not Executed</h6>
+                </div>
+                <div class="fullwidth">
+                    <div class="productleft-bar">
+                        <ul>
+                            <li class="common-list2">
+                                <p>CMP</p>
+                                <h6><span class="rupeetext">₹</span>863.40</h6>
+                            </li>
+                            <li class="common-list2">
+                                <p>Buy Price</p>
+                                <h6><span class="rupeetext">₹</span>350.00</h6>
+                            </li>
+                            <li class="common-list2">
+                                <p>Sell Price</p>
+                                <h6><span class="rupeetext">₹</span>350.00</h6>
+                            </li>
+                            <li class="common-list2">
+                                <p>Profit (%)</p>
+                                <h6 class="greencolor"><span class="rupeetext">₹</span>5,400<small>(7%)</small></h6>
+                            </li>
+                            <li class="common-list2">
+                                <p>Profit Per Share</p>
+                                <h6 class="greencolor"><span class="rupeetext">₹</span>54.00</h6>
+                            </li>
+                            <li class="common-list2">
+                                <p>Realised G/L</p>
+                                <h6>-</h6>
+                            </li>
+                            <li class="common-list2">
+                                <p>Unrealised G/L</p>
+                                <h6 class="redcolor"><span class="rupeetext">₹</span>554.00</h6>
+                            </li>
+                        </ul>
+                    </div>    
+                </div>
+            </div> 
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <script>
+        $(document).ready(function() {
+            var swiper1 = new Swiper('.swiper1', {
+                slidesPerView: 3,
+                spaceBetween: 20,
+                navigation: {
+                    nextEl: '.swiper-button-next',
+                    prevEl: '.swiper-button-prev',
+                },
+            });
+            $('#picker').dateTimePicker({
+                dateFormat: 'DD-MMMM-YYYY hh:mm A',
+                ampm:true,
+                timeFormat: 'A g:i',
+            });
+        });
+    </script>
+
+</body>
+</html>
